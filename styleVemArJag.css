@@ -1,0 +1,79 @@
+body{
+    height: 100vh;
+    background: linear-gradient(to bottom right, rgb(0, 0, 0) 0%, rgb(188, 188, 188) 100%);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.int{
+    display: flex;
+}
+.links{
+    display: flex;
+    width: 100vw;
+    height: 10px;
+    justify-content: flex-end;
+    margin: 20px;
+}
+.links a{
+    margin: 20px;
+    text-decoration: none;
+    color: white;
+}
+.links a:hover{
+    text-decoration: underline;
+}
+
+#Intro{
+    color: white;
+    font-weight: bolder;
+    margin: 15px;
+    font-size: 75px;
+}
+#Intro span{
+    text-decoration: underline;
+}
+
+.jag{
+    justify-self: flex-end;
+    max-width: 500px;
+    height: auto;
+    background-color: black;
+    color: white;
+    opacity: 50%;
+    margin: 75px;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.Intressen{
+    display: flex;
+    max-width: 450px;
+    height: auto;
+    background-color: white;
+    color: black;
+    opacity: 50%;
+    margin: 75px;
+    padding: 25px;
+    border-radius: 10px;
+}
+.Intressen p{
+    margin-left: 15px;
+}
+
+.Meriter{
+    justify-self: flex-end;
+    max-width: 450px;
+    height: auto;
+    background-color: black;
+    color: white;
+    opacity: 50%;
+    margin: 75px;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+}

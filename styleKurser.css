@@ -1,0 +1,367 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+@media only screen and (max-width: 1000px) {
+    .KurserMENY{
+        margin-left: 10px;
+        display: none;
+    }
+
+    #SVEcontent, #MAccontent, #ENG06content, #Fy1acontent, #Ke1content, #PRR1content, #WES1content, #FOR1content, #INKcontent, #HIS1content, #SAM1a1content{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    
+}
+@media only screen and (min-width: 1000px) {
+    #INTR0{
+        padding-left: 200px;
+    }
+    .KurserMENY{
+        margin-left: 30px;
+    }
+    .ReturnSScreen{
+        display: none;
+    }
+
+    #SVEcontent, #MAccontent, #ENG06content, #Fy1acontent, #Ke1content, #PRR1content, #WES1content, #FOR1content, #INKcontent, #HIS1content, #SAM1a1content{
+        padding-left: 350px;
+        padding-right: 100px;
+    }
+}
+
+.INTRO{
+    background-color: black;
+    color: white;
+    position: relative;
+    top: 0px;
+    height: 665px;
+    width: auto;
+    left: -0px;
+    justify-content: center;
+    display: flex;
+}
+#INTR0{
+    padding-top: 250px;
+    height: 650px;
+    right: 250px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.SVE{
+    background-color: rgb(214, 221, 19);
+    color: black;
+    position: relative;
+    top: 0px;
+    height: 665px;
+    width: auto;
+    z-index: -99;
+    left: -0px;
+    justify-content: center;
+    display: flex;
+    display: block;
+}
+#SVEcontent{
+    justify-self: end;
+    justify-content: center;
+    padding-top: 110px;
+    background-color: transparent;
+    height: 50px;
+    width: auto;
+    font-size: auto;
+}
+#SVEcontent img{
+    display: grid;
+    width: 200px;
+    height: auto;
+    justify-self: end;
+}
+
+.MAc{
+    background-color: rgb(61, 146, 61);
+    color: white;
+    position: relative;
+    top: 0px;
+    height: 665px;
+    width: auto;
+    z-index: -99;
+    left: -0px;
+    justify-content: center;
+    display: flex;
+
+    
+}
+#MAccontent{
+    justify-self: end;
+    justify-content: center;
+    padding-top: 110px;
+    background-color: transparent;
+    height: 50px;
+    width: auto;
+    font-size: auto;
+}
+#MAccontent img{
+    display: grid;
+    max-width: 200px;
+    margin-top: 50px;
+    justify-self: center;
+}
+
+.ENG06{
+    background-color: rgb(98, 248, 241);
+    color: black;
+    position: relative;
+    top: 0px;
+    height: 665px;
+    width: auto;
+    z-index: -99;
+    left: -0px;
+    justify-content: center;
+    display: flex;
+    display: block;
+}
+#ENG06content{
+    justify-self: end;
+    justify-content: center;
+    padding-top: 110px;
+    width: auto;
+}
+
+.Fy1a{
+    background-color: rgb(133, 37, 53);
+    color: white;
+    position: relative;
+    top: 0px;
+    height: 665px;
+    width: auto;
+    z-index: -99;
+    left: -0px;
+    justify-content: center;
+    display: flex;
+    display: block;
+}
+#Fy1acontent{
+    justify-self: end;
+    justify-content: center;
+    padding-top: 110px;
+    width: auto;
+}
+
+.Ke1{
+    background-color: rgb(37, 133, 106);
+    color: white;
+    position: relative;
+    top: 0px;
+    height: 665px;
+    width: auto;
+    z-index: -99;
+    left: -0px;
+    justify-content: center;
+    display: flex;
+    display: block;
+}
+#Ke1content{
+    justify-self: end;
+    justify-content: center;
+    padding-top: 110px;
+    width: auto;
+}
+
+.HIS1{
+    background-color: rgb(238, 244, 172);
+    color: black;
+    position: relative;
+    top: 0px;
+    height: 665px;
+    width: auto;
+    z-index: -99;
+    left: -0px;
+    justify-content: center;
+    display: flex;
+    display: block;
+}
+#HIS1content{
+    justify-self: end;
+    justify-content: center;
+    padding-top: 110px;
+    width: auto;
+}
+
+.SAM1a1{
+    background-color: rgb(25, 109, 137);
+    color: white;
+    position: relative;
+    top: 0px;
+    height: 665px;
+    width: auto;
+    z-index: -99;
+    left: -0px;
+    justify-content: center;
+    display: flex;
+    display: block;
+}
+#SAM1a1content{
+    justify-self: end;
+    justify-content: center;
+    padding-top: 110px;
+    width: auto;
+}
+#SAM1a1content h1{
+    font-size: 20px;
+}
+
+.PRR1{
+    background-color: blueviolet;
+    color: white;
+    position: relative;
+    top: 0px;
+    height: 665px;
+    width: auto;
+    z-index: -99;
+    left: -0px;
+    justify-content: center;
+    display: flex;
+    display: block;
+}
+#PRR1content{
+    justify-self: end;
+    justify-content: center;
+    padding-top: 110px;
+    width: auto;
+}
+#PRR1content h1{
+    font-size: 22px;
+}
+
+.WES1{
+    background-color: dodgerblue;
+    color: white;
+    position: relative;
+    top: 0px;
+    height: 665px;
+    width: auto;
+    z-index: -99;
+    left: -0px;
+    justify-content: center;
+    display: flex;
+    display: block;
+}
+#WES1content{
+    justify-self: end;
+    justify-content: center;
+    padding-top: 110px;
+    width: auto;
+}
+
+#WES1content h1{
+    font-size: 22px;
+}
+
+.FOR1{
+    background-color: rgb(34, 88, 164);
+    color: white;
+    position: relative;
+    top: 0px;
+    height: 665px;
+    width: auto;
+    z-index: -99;
+    left: -0px;
+    justify-content: center;
+    display: flex;
+    display: block;
+}
+#FOR1content{
+    justify-content: center;
+    justify-self: end;
+    padding-top: 110px;
+    width: auto;
+}
+
+#FOR1content h1{
+    font-size: 22px;
+}
+
+.INK{
+    background-color: rgb(125, 164, 34);
+    color: white;
+    position: relative;
+    top: 0px;
+    height: 665px;
+    width: auto;
+    z-index: -99;
+    left: -0px;
+    justify-content: center;
+    display: flex;
+    display: block;
+}
+#INKcontent{
+    justify-content: center;
+    justify-self: end;
+    padding-top: 110px;
+    width: auto;
+}
+
+
+
+
+
+
+
+
+
+.KurserMENY{
+    position: fixed;
+    top: 50px;
+    left: 10px;
+    background-color: beige;
+    padding: 20px;
+    margin-top: 60px;
+    border-radius: 10px;
+    width: 200px;
+    height: 350px;
+}
+.KurserMENY a{
+    display: block;
+    text-align: center;
+    color: black;
+}
+.KurserMENY span{
+    font-weight: bold;
+}
+.KurserMENY img{
+    width: 25px;
+    height: auto;
+    margin-top: 10px;
+}
+#Link{
+    text-decoration: none;
+}
+
+.ReturnSScreen{
+    top: 10px;
+    left: 10px;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    background-color: rgb(149, 145, 145);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.ReturnSScreen img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    margin-left: 10px;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    margin-left: 0;
+}

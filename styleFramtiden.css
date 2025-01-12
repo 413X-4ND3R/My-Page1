@@ -1,0 +1,179 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black
+}
+
+@media only screen and (max-width: 600px){
+    .TIME1Line{
+        height: 250px;
+    }
+    .Meny{
+        position: relative;
+        right: 160px;
+        text-align: center;
+    }
+}
+@media only screen and (min-width: 600px){
+    .TIME1Line{
+        height: 100px;
+    }
+    .Meny{
+        margin-left: auto;
+        margin-right: 30px;
+        text-align: right;
+    }
+}
+
+.content{
+    display: flex;
+}
+
+.Meny{
+    color: white;
+    display: block;
+    margin-top: 30px;
+    height: 150px;
+}
+.Meny h1{
+    font-size: 25px;
+}
+.Meny a{
+    color: white;
+    display: block;
+    margin-top: 15px;
+    text-decoration: none;
+}
+.Meny a:hover{
+    text-decoration: underline;
+}
+
+.TIME1Line{
+    background-color: white;
+    width: 10px;
+    margin-left: 50px; ;
+}
+.TIME1Circle{
+    position: relative;
+    top: -10px;
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 25px;
+    border: 5px solid gray;
+}
+.TIME1Circle p{
+    position: relative;
+    text-align: center;
+    top: 15px;
+}
+.TXT1content{
+    position: relative;
+    display: grid;
+    width: 200px;
+    height: auto;
+    background-color: gray;
+    color: white;
+    margin-left: 100px;
+    top: -70px;
+    border-radius: 10px;
+}
+.TXT1content p{
+    margin: 10px;
+}
+.TXT1content span{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+.TIME2{
+    z-index: -10;
+    position: relative;
+    top: -115px;
+}
+.TIME2LINE{
+    background-color: white;
+    width: 10px;
+    height: 80px;
+    margin-left: 50px; ;
+}
+.TIME2CIRCLE{
+    position: relative;
+    top: -10px;
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 25px;
+    border: 5px solid gray;
+}
+.TIME2CIRCLE p{
+    position: relative;
+    text-align: center;
+    top: 17px;
+}
+.TIME2content{
+    position: relative;
+    display: grid;
+    width: 200px;
+    height: auto;
+    background-color: gray;
+    color: white;
+    margin-left: 100px;
+    top: -70px;
+    border-radius: 10px;
+}
+.TIME2content p{
+    margin: 10px;
+}
+.TIME2content span{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.TIME3{
+    z-index: -20;
+    position: relative;
+    top: -150px;
+}
+.TIME3LINE{
+    background-color: white;
+    width: 10px;
+    height: 80px;
+    margin-left: 50px; ;
+}
+.TIME3CIRCLE{
+    position: relative;
+    top: -10px;
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 25px;
+    border: 5px solid gray;
+}
+.TIME3CIRCLE p{
+    position: relative;
+    text-align: center;
+    top: 17px;
+}
+.TIME3content{
+    position: relative;
+    display: grid;
+    width: 200px;
+    height: auto;
+    background-color: gray;
+    color: white;
+    margin-left: 100px;
+    top: -70px;
+    border-radius: 10px;
+}
+.TIME3content p{
+    margin: 10px;
+}
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
